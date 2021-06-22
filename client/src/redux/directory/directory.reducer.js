@@ -1,33 +1,38 @@
 const INITIAL_STATE = {
   sections: [
     {
-      title: 'hats',
-      imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+      title: 'socks',
+      imageUrl:
+        'https://cdn.shopify.com/s/files/1/0234/4461/files/cute-but-crazy-colorful-crew-socks_1600x.jpg?v=1620005708',
       id: 1,
-      linkUrl: 'shop/hats',
+      linkUrl: 'shop/socks',
     },
     {
-      title: 'jackets',
-      imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+      title: 'eletronics',
+      imageUrl:
+        'https://cdn.mos.cms.futurecdn.net/88dae3a48f3e67d39af6a18657d92488-1200-80.jpg',
       id: 2,
-      linkUrl: 'shop/jackets',
+      linkUrl: 'shop/electronics',
     },
     {
-      title: 'sneakers',
-      imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+      title: 'jewelery',
+      imageUrl:
+        'https://www.crushpixel.com/big-static10/preview4/jewellery-arranged-background-489416.jpg',
       id: 3,
-      linkUrl: 'shop/sneakers',
+      linkUrl: 'shop/jewelery',
     },
     {
       title: 'womens',
-      imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+      imageUrl:
+        'https://images.unsplash.com/photo-1581338834647-b0fb40704e21?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZmFzaGlvbiUyMG1vZGVsfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80',
       size: 'large',
       id: 4,
       linkUrl: 'shop/womens',
     },
     {
       title: 'mens',
-      imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+      imageUrl:
+        'https://www.apetogentleman.com/wp-content/uploads/2018/06/male-models-david-gandy.jpg',
       size: 'large',
       id: 5,
       linkUrl: 'shop/mens',

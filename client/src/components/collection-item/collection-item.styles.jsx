@@ -39,8 +39,10 @@ export const CollectionItemContainer = styled.div`
 export const BackgroundImage = styled.div`
   width: 100%;
   height: 95%;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
+  /* object-fit: fill; */
   margin-bottom: 5px;
   background-image: ${({ imageUrl }) => `url(${imageUrl})`};
 `;
